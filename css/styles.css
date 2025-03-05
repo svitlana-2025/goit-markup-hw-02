@@ -66,7 +66,7 @@ letter-spacing: 0.02em;
     color: #404bbf;
 }
 
-.contakt a {
+.contakt {
 font-style: normal;
 }
 
@@ -76,9 +76,9 @@ font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #434455;
     font-style: normal;
     cursor: pointer;
+    color: #434455;
 }
 
 .contakt .contakt-link:hover, 
@@ -131,7 +131,7 @@ font-style: normal;
     color: #434455;
 }
 .team {
-background-color: #F4F4FD
+background-color: #FFFFFF;
 }
 
 .main-title-team {
@@ -153,7 +153,7 @@ background-color: #FFFFFF
 .team-name-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
@@ -175,7 +175,7 @@ background-color: #FFFFFF;
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
