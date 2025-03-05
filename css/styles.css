@@ -30,7 +30,7 @@ a {
 }
 
 .body-header {
-    background: #FFFFFF;
+background: #FFFFFF;
 }
 
 .logo {
@@ -166,10 +166,6 @@ background-color: #FFFFFF;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-}
-
-.our-portfolio {
-background-color: #F4F4FD;
 }
 
 .portfolio-list {
