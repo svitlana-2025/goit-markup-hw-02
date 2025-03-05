@@ -9,11 +9,11 @@ body {
 
 h1 {
     font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07143;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
 }
 
 h2 {
@@ -37,9 +37,10 @@ a {
 }
 
 .logo {
+font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
@@ -48,7 +49,7 @@ color: #4D5AE5;
 .logo-part {
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;
@@ -63,13 +64,15 @@ color: #2E2F42;
     letter-spacing: 0.02em;
 }
 
-.page-nav .link:hover {
-    color: #404bbf;
-}
-
+.page-nav .link:hover,
 .page-nav .link:focus {
     color: #404bbf;
 }
+
+.contakt {
+font-style: normal
+}
+
 
 .contakt .link {
     font-size: 16px;
@@ -81,8 +84,8 @@ color: #2E2F42;
     cursor: pointer;
 }
 
-.contakt:hover, 
-.contakt:focus {
+.contakt .link:hover, 
+.contakt .li:focus {
     color: #404bbf;
 }
 
@@ -93,19 +96,27 @@ color: #2E2F42;
 .main-sektion-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
 }
 
 .button-order-service {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    color: #ffffff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4D5AE5;
+}
+
+.button-order-service:hover,
+.button-order-service:focus {
+    background-color: #404BBF;
+    cursor: pointer;
 }
 
 .our-company-title {
@@ -123,20 +134,30 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.team {
+background-color: #F4F4FD
+}
 
 .main-title-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
 }
 
+.team-list {
+background-color: #FFFFFF
+}
+
+
+
 .team-name-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
@@ -154,14 +175,15 @@ color: #2E2F42;
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
 
-.portfolio-title-h3 {
+.our-portfolio-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -178,15 +200,16 @@ color: #2E2F42;
 }
 
 .logo-part-button {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #F4F4FD;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
 }
 
 .footer-text {
+font-family: "Releway", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
