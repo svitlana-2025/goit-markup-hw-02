@@ -16,17 +16,14 @@ h1 {
     color: #fff;
 }
 
-h2 {
-    color: #2E2F42;
-}
-
+h2
 h3 {
-    color: #2E2F42;
+font-family: "Roboto", sans-serif;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
 }
 
-ul {
-    list-style-type: none;
-}
 
 a {
     text-decoration: none;
@@ -56,25 +53,25 @@ color: #2E2F42;
 }
 
 .page-nav-link {
-    text-decoration: none;
-    font-weight: 500;
-    color: #2E2F42;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+text-decoration: none;
+font-weight: 500;
+color: #2E2F42;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
-.page-nav .link:hover,
-.page-nav .link:focus {
+.page-nav .page-nav-link:hover,
+.page-nav .page-nav-link:focus {
     color: #404bbf;
 }
 
-.contakt {
-font-style: normal
+.contakt a {
+font-style: normal;
 }
 
 
-.contakt .link {
+.contakt .contakt-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -84,8 +81,8 @@ font-style: normal
     cursor: pointer;
 }
 
-.contakt .link:hover, 
-.contakt .li:focus {
+.contakt .contakt-link:hover, 
+.contakt .contakt-link:focus {
     color: #404bbf;
 }
 
@@ -109,7 +106,6 @@ font-style: normal
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4D5AE5;
 }
 
@@ -172,10 +168,14 @@ background-color: #FFFFFF
     color: #434455;
 }
 
+.our-portfolio {
+background-color: #FFFFFF;
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
